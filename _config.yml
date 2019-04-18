@@ -1,32 +1,38 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Phantom
-email: youremailaddress@gmail.com
-description: The Jekyll version of the Phantom theme by HTML5 UP.
-baseurl: "/phantom-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title:          Tale
+description:    "Minimal Jekyll theme for storytellers"
+baseurl:        "/tale"
+url:            "https://chesterhow.github.io"
 
-# Logo settings
-logo-image-url: images/logo.svg
-font-awesome-icon-logo:
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
 
-# Social settings
-github_username: andrewbanchich
-twitter_username: andrewbanchich
-facebook_URL: andrewbanchich
-instagram_username: andrewbanchich
-dribbble_username: andrewbanchich
-500px_username: andrewbanchich
-phone: 555-5555
+# Author
+author:
+  name:         Chester How
+  url:          https://chester.how
+  email:        chesterhow@gmail.com
 
 # Build settings
-markdown: kramdown
+markdown:       kramdown
+include:
+  - _pages
 
-# Layout settings
-home-link-in-menu: yes
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
