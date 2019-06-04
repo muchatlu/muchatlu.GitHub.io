@@ -1,16 +1,13 @@
-
 ---
 layout: post
-title:  "Yuvaneshtam Update"
+title:  "Mukyamantri Yuvanestham Update"
 author: "Muchatlu"
 ---
-
-**
 
 ## Mukhyamantri _Yuvanestham_ / Unemployment Allowance scheme
 
 **Andhra Pradesh lo gatha prabhutvam pravesa pettina Yuvanestham chaala mandiki upayogam kaliginchindi ani cheppukovachu.
-Kakapothe ee padhakam inka pani cheyadu ani oka samacharam. 
+Kakapothe ee padhakam inka pani cheyadu ani oka samacharam**
 
 Daaniki palu kaaranalu koda unnayi.
 1. June Month lo Government funds release cheyaledu, evari account lo money credit avvaledu.
